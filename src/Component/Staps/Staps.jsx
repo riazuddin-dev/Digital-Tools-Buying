@@ -7,7 +7,7 @@ import roket from "../../assets/rocket.png"
 
 const Steps = () => {
   return (
-    <div className="bg-gray-100 py-16">
+    <div className="bg-gray-100 py-16 mt-6">
       <div className="max-w-7xl mx-auto px-6 text-center">
         
         {/* Title */}
@@ -54,7 +54,7 @@ const Steps = () => {
           </div>
 
           {/* Card 3 */}
-          <div className="bg-white p-8 rounded-xl shadow-sm relative">
+          <div className=" relative  bg-white p-8 rounded-xl shadow-sm">
             <span className="absolute top-4 right-4 bg-purple-600 text-white text-xs px-3 py-1 rounded-full">
               03
             </span>

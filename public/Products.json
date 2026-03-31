@@ -1,0 +1,92 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Resume Builder Pro",
+      "description": "Create professional resumes in minutes with AI-powered suggestions and industry-specific templates.",
+      "price": 29,
+      "period": "one-time",
+      "tag": "Best Seller",
+      "tagType": "best seller",
+      "features": ["200+ premium templates", "AI content suggestions", "ATS optimization", "Export to PDF & Word", "LinkedIn profile sync"],
+      "image": "https://img.icons8.com/fluency/96/resume.png"
+    },
+    {
+      "id": 2,
+      "name": "Job Tracker Premium",
+      "description": "Organize your job search, track applications, and never miss a follow-up again.",
+      "price": 9.99,
+      "period": "monthly",
+      "tag": "Popular",
+      "tagType": "popular",
+      "features": ["Unlimited job applications", "Application status tracker", "Interview preparation tools", "Email reminders", "Analytics dashboard"],
+      "image": "https://img.icons8.com/fluency/96/task.png"
+    },
+    {
+      "id": 3,
+      "name": "Cover Letter AI",
+      "description": "Generate tailored cover letters instantly using advanced AI that matches your experience with job requirements.",
+      "price": 49,
+      "period": "yearly",
+      "tag": "New",
+      "tagType": "new",
+      "features": ["AI-powered writing", "Job description matching", "Multiple tone options", "Grammar & style check", "Unlimited generations"],
+      "image": "https://img.icons8.com/fluency/96/document.png"
+    },
+    {
+      "id": 4,
+      "name": "Career Success Bundle",
+      "description": "Everything you need for your job search: Resume, Cover Letter, LinkedIn optimization & Interview prep.",
+      "price": 79,
+      "period": "one-time",
+      "tag": "Best Value",
+      "tagType": "popular",
+      "features": ["Full Resume Builder", "Cover Letter Generator", "LinkedIn Profile Optimizer", "Interview Question Bank", "1-year access to all tools"],
+      "image": "https://img.icons8.com/fluency/96/combo-chart.png"
+    },
+    {
+      "id": 5,
+      "name": "LinkedIn Profile Booster",
+      "description": "Optimize your LinkedIn profile with AI to attract recruiters and get more opportunities.",
+      "price": 19,
+      "period": "one-time",
+      "tag": "Good",
+      "tagType": "",
+      "features": ["AI headline & summary", "Experience optimization", "Keyword suggestions", "Profile strength score", "Before/After comparison"],
+      "image": "https://img.icons8.com/fluency/96/linkedin.png"
+    },
+   {
+  "id": 6,
+  "name": "Interview Mastery",
+  "description": "Prepare for any interview with realistic mock interviews, AI feedback, and behavioral question training.",
+  "price": 14.99,
+  "period": "monthly",
+  "tag": "Popular",
+  "tagType": "popular",
+  "features": ["Unlimited mock interviews", "AI performance feedback", "Behavioral question library", "Industry-specific questions", "Confidence tracker"],
+  "image": "../src/assets/products/social-media.png"
+},
+    {
+      "id": 7,
+      "name": "Salary Negotiation Toolkit",
+      "description": "Know your worth and negotiate confidently with data-backed scripts and strategies.",
+      "price": 39,
+      "period": "one-time",
+      "tag": "New",
+      "tagType": "new",
+      "features": ["Market salary data", "Negotiation scripts", "Counter-offer templates", "Value proposition builder", "Role-specific strategies"],
+      "image": "https://img.icons8.com/fluency/96/money-bag.png"
+    },
+  {
+  "id": 8,
+  "name": "Freelancer Launchpad",
+  "description": "Complete toolkit for freelancers: proposals, contracts, invoicing & client management.",
+  "price": 12.99,
+  "period": "monthly",
+  "tag": "Best Seller",
+  "tagType": "best seller",
+  "features": ["Proposal templates", "Contract generator", "Invoice & payment tracking", "Client CRM", "Time tracking"],
+  "image": "../src/assets/products/design-tool.png"
+}
+  ]
+}
