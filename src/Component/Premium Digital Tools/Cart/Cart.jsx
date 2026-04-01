@@ -28,17 +28,17 @@ setCartData(filterArry)
         </div>
       ) : (
         <>
-          {/*  Cart Items */}
+     
           {cartData.map((item) => (
  <div
         key={cartData.id}
-        className="flex justify-between items-cente  bg-gray-200 p-3 rounded-xl mb-3"
+        className="flex justify-between items-center  bg-gray-200 p-3 rounded-xl mb-3"
       >
       <div
   key={item.id}
   className="flex justify-center items-center bg-gray-200  rounded-xl"
 >
-  {/* LEFT SIDE */}
+
   <div className="flex items-center gap-4">
     <img
       src={item.image}
@@ -49,20 +49,20 @@ setCartData(filterArry)
     <h3 className="font-medium text-left">{item.name}</h3>
   </div>
 
-  {/* RIGHT SIDE */}
+
   <p className="text-lg font-bold text-gray-800">
     ${item.price}
   </p>
 </div>
 
-      <button onClick={()=>{removeClick(item) , toast.error("Cart Remove successful")}} className=" btn text-red-500 text-sm">Remove</button>
+      <button onClick={()=>{removeClick(item) , toast.error("Cart Remove successful")}} className=" btn text-red-500 text-sm ml-3">Remove</button>
       </div>
 
 
 
           ))}
 
-          {/*  Total (ONLY ONCE) */}
+      
           <TotalCount cartData={cartData} setCartData={setCartData}/>
         </>
       )}

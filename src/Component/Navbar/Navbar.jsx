@@ -13,20 +13,20 @@ const Navbar = ({ cartData }) => {
           <img className="w-32 md:w-40" src={image} alt="logo" />
         </div>
 
-        <ul className="hidden md:flex gap-8 text-sm font-bold text-gray-800">
-          <li>
+        <ul className="hidden md:flex gap-8 text-sm font-bold text-gray-800 ">
+          <li className="hover:underline cursor-pointer">
             <a href="#">Products</a>
           </li>
-          <li>
+          <li className="hover:underline cursor-pointer">
             <a href="#">Features</a>
           </li>
-          <li>
+          <li className="hover:underline cursor-pointer">
             <a href="#">Pricing</a>
           </li>
-          <li>
+          <li className="hover:underline cursor-pointer">
             <a href="#">Testimonials</a>
           </li>
-          <li>
+          <li className="hover:underline cursor-pointer">
             <a href="#">FAQ</a>
           </li>
         </ul>

@@ -6,11 +6,11 @@ import playImg from "../../assets/Play.png"
 const HeroSection = () => {
   return (
     <div className="bg-gray-100 pt-13">
-      {/* Main Hero */}
+   
       <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center gap-10">
-        {/* Left Content */}
+      
         <div className="flex-1">
-          <span className="bg-purple-100 text-purple-600 px-3 w-2/3 py-2 rounded-full text-lg font-bold flex  items-center justify-center gap-3">
+          <span className="bg-purple-100 text-purple-600 px-3 md:w-2/3 py-2 rounded-full text-lg font-bold flex  items-center justify-center gap-3">
            
               <img  src={group} alt="" />
             New: AI-Powered Tools Available
@@ -36,7 +36,7 @@ const HeroSection = () => {
           </div>
         </div>
 
-        {/* Right Image */}
+     
         <div className="flex-1">
           <img
             src={heroImg}
@@ -46,7 +46,7 @@ const HeroSection = () => {
         </div>
       </div>
 
-      {/* Stats Section */}
+     
       <div className="mt-12 bg-linear-to-r from-purple-600 to-indigo-600 text-white">
         <div className="max-w-7xl mx-auto px-6 py-8 flex flex-col md:flex-row justify-around items-center text-center gap-6">
           <div>
