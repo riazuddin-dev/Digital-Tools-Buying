@@ -64,8 +64,7 @@
   "tag": "Popular",
   "tagType": "popular",
   "features": ["Unlimited mock interviews", "AI performance feedback", "Behavioral question library", "Industry-specific questions", "Confidence tracker"],
-  "image": "../src/assets/products/social-media.png"
-},
+"image": "https://img.icons8.com/fluency/96/work-from-home.png"},
     {
       "id": 7,
       "name": "Salary Negotiation Toolkit",
@@ -86,7 +85,7 @@
   "tag": "Best Seller",
   "tagType": "best seller",
   "features": ["Proposal templates", "Contract generator", "Invoice & payment tracking", "Client CRM", "Time tracking"],
-  "image": "../src/assets/products/design-tool.png"
+ "image": "https://img.icons8.com/fluency/96/business.png"
 }
   ]
 }

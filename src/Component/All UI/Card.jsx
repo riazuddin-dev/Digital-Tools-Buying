@@ -33,7 +33,8 @@ const Card = ({ product, cartData, setCartData }) => {
   return (
     <>
       <div>
-        <div className="card w-80 bg-base-100 shadow-xl relative p-6 rounded-2xl">
+        <div className="card w-80 bg-base-100 shadow-xl relative p-6 rounded-2xl 
+hover:shadow-2xl hover:-translate-y-2 transition duration-300 ">
           <div className="badge badge-warning absolute right-4 top-4 text-xs font-semibold">
             {tag}
           </div>

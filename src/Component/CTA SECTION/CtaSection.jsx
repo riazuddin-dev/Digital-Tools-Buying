@@ -16,13 +16,13 @@ const CtaSection = () => {
   </p>
 
   {/* Buttons */}
-  <div className="mt-6 flex justify-center gap-4 flex-wrap">
+  <div className="mt-6 flex justify-center gap-4 flex-wrap ">
     
-    <button className="bg-white text-purple-600 px-5 py-2 rounded-full font-medium">
+    <button className="bg-white text-purple-600 px-5 py-2 rounded-full font-medium btn hover:-translate-y-1 transition duration-700">
       Explore Products
     </button>
 
-    <button className="border border-white px-5 py-2 rounded-full">
+    <button className="border border-white px-5 py-2 rounded-full btn hover:-translate-y-1 transition duration-700">
       View Pricing
     </button>
 

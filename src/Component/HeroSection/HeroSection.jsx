@@ -1,6 +1,8 @@
 import React from "react";
 import heroImg from "../../assets/banner.png"; // তোমার image path
 import group from "../../assets/products/group-5.png";
+
+import playImg from "../../assets/Play.png"
 const HeroSection = () => {
   return (
     <div className="bg-gray-100 pt-13">
@@ -24,12 +26,12 @@ const HeroSection = () => {
           </p>
 
           <div className="mt-6 flex gap-4">
-            <button className="bg-purple-600 text-white px-5 py-2 rounded-full">
+            <button className="bg-purple-600 text-white px-5 py-2 rounded-full btn hover:-translate-y-1 transition duration-400">
               Explore Products
             </button>
 
-            <button className="border border-purple-600 text-purple-600 px-5 py-2 rounded-full">
-              ▶ Watch Demo
+            <button className="border border-purple-600 text-purple-600 px-5 py-2 btn rounded-full hover:-translate-y-1 transition duration-400">
+              <span><img src={playImg} alt="" /></span> Watch Demo
             </button>
           </div>
         </div>

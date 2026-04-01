@@ -22,7 +22,7 @@ const Steps = () => {
         <div className="mt-10 grid grid-cols-1 md:grid-cols-3 gap-8">
           
           {/* Card 1 */}
-          <div className="bg-white p-8 rounded-xl shadow-sm relative">
+          <div className="bg-white p-8 rounded-xl shadow-sm relative hover:-translate-y-2 transition duration-300 hover:shadow-2xl">
             <span className="absolute top-4 right-4 bg-purple-600 text-white text-xs px-3 py-1 rounded-full">
               01
             </span>
@@ -38,7 +38,7 @@ const Steps = () => {
           </div>
 
           {/* Card 2 */}
-          <div className="bg-white p-8 rounded-xl shadow-sm relative">
+          <div className="bg-white p-8 rounded-xl shadow-sm relative hover:-translate-y-2 transition duration-300 hover:shadow-2xl">
             <span className="absolute top-4 right-4 bg-purple-600 text-white text-xs px-3 py-1 rounded-full">
               02
             </span>
@@ -54,7 +54,7 @@ const Steps = () => {
           </div>
 
           {/* Card 3 */}
-          <div className=" relative  bg-white p-8 rounded-xl shadow-sm">
+          <div className=" relative  bg-white p-8 rounded-xl shadow-sm hover:-translate-y-2 transition duration-300 hover:shadow-2xl">
             <span className="absolute top-4 right-4 bg-purple-600 text-white text-xs px-3 py-1 rounded-full">
               03
             </span>
