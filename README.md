@@ -1,4 +1,5 @@
 # 🛒 Digital Tools Buying Website
+<img width="1920" height="877" alt="image" src="https://github.com/user-attachments/assets/f3931a6e-e657-49a4-a450-4af1b9327e47" />
 
 ##  Description
 
